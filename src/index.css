@@ -8,7 +8,7 @@ h1, h2, p, ul, li{
 ul.header li{
   display: inline;
   list-style-type: none;
-  margin: 0;
+  margin: 45px;
 }
 ul.header{
   background-color: rgb(58, 124, 173);
@@ -24,6 +24,7 @@ ul.header li a{
 ul.header{
   text-align: center;
   font-size: 2em;
+  margin-bottom: 0;
 }
 .content{
   background-color: rgb(240, 240, 240);
@@ -56,7 +57,27 @@ h1{
 .keyboard img {
   width: 350px;
   height: 300px;
+  margin-right: 200px;
 }
 .images{
   display: inline-flex;
+  margin-left: 220px;
+}
+.keyboard {
+  font-size: 25px;
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+  color: rgb(44, 160, 121);
+}
+footer{
+  background-color: rgb(58, 124, 173);
+  padding: 15px;
+  text-align: center;
+}
+ul.foot li{
+  display: inline;
+  list-style-type: none;
+  margin: 25px;
+  font-size: 18px;
 }

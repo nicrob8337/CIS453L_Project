@@ -3,6 +3,7 @@ import {Route, Routes,  NavLink, HashRouter} from "react-router-dom";
 import Home from "./Home";
 import Keyboards from "./Keyboards";
 import Keycaps from "./Keycaps";
+import Footer from "./footer";
 
 class Main extends Component {
     render(){
@@ -23,6 +24,7 @@ class Main extends Component {
                 </Routes>
                 </div>
             </div>
+            <Footer/>
             </HashRouter>
         );
     }
